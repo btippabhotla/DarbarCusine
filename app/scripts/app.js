@@ -36,6 +36,11 @@ angular
         controller: 'MenuCtrl',
         controllerAs: 'menu'
       })
+      .when('/contact', {
+        templateUrl: 'views/contact.html',
+        controller: 'ContactCtrl',
+        controllerAs: 'contacts'
+      })
       .otherwise({
         redirectTo: '/'
       });
