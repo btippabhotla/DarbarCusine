@@ -41,6 +41,11 @@ angular
         controller: 'ContactCtrl',
         controllerAs: 'contacts'
       })
+      .when('/menu/VegetarianEntriees', {
+        templateUrl: 'views/tabs/VegetarianEntriees.html',
+        controller: 'VegCtrl',
+        controllerAs: 'VegetarianEntriees'
+      })
       .otherwise({
         redirectTo: '/'
       });
