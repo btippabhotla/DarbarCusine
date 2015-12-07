@@ -1,0 +1,76 @@
+{
+    "menu": {
+        "Appetizers": {
+            "Vegetarian": [
+                {
+                    "id": "1",
+                    "name": "Masala Vada"
+                },
+                {
+                    "id": "2",
+                    "name": "Vegetable Samosa"
+                },
+                {
+                    "id": "3",
+                    "name": "Paneer Pakora"
+                },
+                {
+                    "id": "4",
+                    "name": "Dahi Vada"
+                },
+                {
+                    "id": "5",
+                    "name": "Mixed Bhajia"
+                },
+                {
+                    "id": "6",
+                    "name": "Paneer Tikka"
+                }
+            ],
+            "NonVegetarian": [
+                {
+                    "id": "7",
+                    "name": "Seekh Kabab"
+                },
+                {
+                    "id": "8",
+                    "name": "Tandoori Prawns"
+                },
+                {
+                    "id": "9",
+                    "name": "Chicken Tikka"
+                },
+                {
+                    "id": "10",
+                    "name": "Fish Pakora"
+                },
+                {
+                    "id": "11",
+                    "name": "Assorted Tandoori"
+                },
+                {
+                    "id": "12",
+                    "name": "Beef Samosa"
+                }
+            ],
+            "South Indian Favorites": [
+                {
+                    "id": "13",
+                    "name": "Idli with Mulhapodi"
+                },
+                {
+                    "id": "14",
+                    "name": "Sada Dosa"
+                },
+                {
+                    "id": "15",
+                    "name": "Masala Dosa"
+                },
+                {
+                    "id": "16",
+                    "name": "Kheema Masala Dosa"
+                }
+            ]
+        }
+    }
+}

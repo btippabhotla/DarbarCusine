@@ -1,4 +1,4 @@
-<div class="">
+<div class="" ng-controller="MainCtrl">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -38,8 +38,9 @@
     </a>
   </div>
 </div>
+
 <div class="col-sm-6 col-md-6 col-lg-6">
-  <div class="row marketing"></div>
+  <div class="marketing">
     <div class="panel panel-success">
       <div class="panel panel-heading"><strong>Welcome to Darbar Indian Cuisine </strong></div>
         <div class="panel panel-body">
@@ -53,10 +54,32 @@
   </div>
 </div>
 
-<div class="col-sm-6 col-md-6 col-lg-6"> hello this is how you make restaurant designs ? </div>
+<div class="col-sm-6 col-md-6 col-lg-6">
+<div class="marketing">
+    <div class="panel panel-success">
+      <div class="panel panel-heading"><strong>Today: <i>{{ clock | date:'MMMM dd, yyyy'}} </i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Time: {{clock | date:' HH:mm:ss' }} {{ampm}} </strong></div>
+        <div class="panel panel-body">
+          <script type="text/javascript"><!--
+qd_if_uid = "64aa915123d67f9dfc15ffc2b068f345";
+qd_if_width = "250";
+qd_if_height = "278";
+qd_if_tags = "Thought+of+the+day";
+qd_if_title = "Quotes of the Day"
+//--></script>
+<script type="text/javascript" src="https://www.quotesdaddy.com/js/show_widget.js">
+</script><br />
+            <article>Welcome to Darbar Indian Cuisine, where northern and southern Indian cuisine combine to bring you the best tastes of India.
+              From our piping hot potato fritters to our delicious buffets and dinners to our traditional desserts, Darbar serves up some of the “best prepared,
+              most elegant, and simply best tasting Indian food” in the Bay Area. Come to Darbar Indian Cuisine,
+              where “you can eat like a king while being treated like a prince.”
+            </article>
+        </div>
+    </div>
+  </div>
+</div>
 
 
-
+<div class="col-md-12 col-lg-12">
 <div class="col-sm-6 col-md-4">
   <div class="thumbnail">
     <img src="images/thumbImages/tajMahal.jpg" style="width:1024px; height:208px" alt="The lovers spot Taj Mahal">
