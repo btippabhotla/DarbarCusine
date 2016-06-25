@@ -4,7 +4,9 @@
             "Vegetarian": [
                 {
                     "id": "1",
-                    "name": "Masala Vada"
+                    "name": "Masala Vada",
+                    "price": "$ 4.00",
+                    "Description": "Ground yellow lentil crisp fried"
                 },
                 {
                     "id": "2",
@@ -53,7 +55,7 @@
                     "name": "Beef Samosa"
                 }
             ],
-            "South Indian Favorites": [
+            "South_Indian_Favorites": [
                 {
                     "id": "13",
                     "name": "Idli with Mulhapodi"

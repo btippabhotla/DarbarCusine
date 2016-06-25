@@ -59,6 +59,25 @@ body {
   margin-top: 28px;
 }
 
+.thumbnails{
+  height: 12em;
+  width: 100%;
+  border: 1px solid #337DFF;
+  border-radius: 5px;
+}
+
+.thumbCols{
+  -webkit-column-count: 3; 
+  -moz-column-count: 3; 
+  column-count: 3;
+}
+
+.thumbCol{
+  -webkit-column-count: 4; 
+  -moz-column-count: 4; 
+  column-count: 4;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {

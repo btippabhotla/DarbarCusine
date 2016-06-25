@@ -1,17 +1,17 @@
 {"Appetizers":[
-		{"itemName": "Seekh Kabab", "itemPrice": "$ 7.95", "itemDescription": "Spicy ground lamb and onions cooked in Tandoor"},
-		{"itemName": "Tandoori Prawns", "itemPrice": "$ 10.95", "itemDescription": "Jumbo prawns marinated and cooked in Tandoor"},
-		{"itemName": "Chicken Tikka", "itemPrice": "$ 6.95", "itemDescription": "Tender Boneless chicken marinated and cooked in Tandoor"},
-		{"itemName": "Chicken Pakora", "itemPrice": "$ 6.95", "itemDescription": "Boneless chicken pieces coated in gram flour"},
-		{"itemName": "Fish Pakora", "itemPrice": "$ 7.95", "itemDescription": "Delicately spiced deep fried fish fritters"},
-		{"itemName": "Assorted Tandoori", "itemPrice": "$ 9.95", "itemDescription": "Assorted Chicken Tikka, Seekh Kabab and Tandoori Prawns"},
-		{"itemName": "Beef Samosa", "itemPrice": "$ 5.00", "itemDescription": "Two crispy patties stuffed with spiced minced beef"},
-		{"itemName": "Vegetable Samosa","itemPrice": "$ 4.75", "itemDescription": "Two crispy patties stuffed with spicy potatoes and peas"},
-		{"itemName": "Onion Pakora", "itemPrice": "$ 4.75", "itemDescription": "Onion Fritters made with lentil flour"},
-		{"itemName": "Paneer Pakora", "itemPrice": "$ 6.95", "itemDescription": "Spiced farmer's cheese coated in gram flour"},
-		{"itemName": "Dahi Vada", "itemPrice": "$ 4.50", "itemDescription": "White lentil fritter in spicy creamy yogurt"},
-		{"itemName": "Masala Vada", "itemPrice": "$ 4.00", "itemDescription": "Ground yellow lentil crisp fried"},
-		{"itemName": "Mixed Bhajias", "itemPrice": "$ 6.95", "itemDescription": "Potatoes, eggplant, onions and chilies crisp fried in gram flour"},
-		{"itemName": "Paneer Tikka", "itemPrice": "$ 8.95", "itemDescription": "Chunks of paneer marinated in spices and grilled in tandoor"}
+		{"Name": "Seekh Kabab", "Price": "$ 7.95", "Description": "Spicy ground lamb and onions cooked in Tandoor"},
+		{"Name": "Tandoori Prawns", "Price": "$ 10.95", "Description": "Jumbo prawns marinated and cooked in Tandoor"},
+		{"Name": "Chicken Tikka", "Price": "$ 6.95", "Description": "Tender Boneless chicken marinated and cooked in Tandoor"},
+		{"Name": "Chicken Pakora", "Price": "$ 6.95", "Description": "Boneless chicken pieces coated in gram flour"},
+		{"Name": "Fish Pakora", "Price": "$ 7.95", "Description": "Delicately spiced deep fried fish fritters"},
+		{"Name": "Assorted Tandoori", "Price": "$ 9.95", "Description": "Assorted Chicken Tikka, Seekh Kabab and Tandoori Prawns"},
+		{"Name": "Beef Samosa", "Price": "$ 5.00", "Description": "Two crispy patties stuffed with spiced minced beef"},
+		{"Name": "Vegetable Samosa","Price": "$ 4.75", "Description": "Two crispy patties stuffed with spicy potatoes and peas"},
+		{"Name": "Onion Pakora", "Price": "$ 4.75", "Description": "Onion Fritters made with lentil flour"},
+		{"Name": "Paneer Pakora", "Price": "$ 6.95", "Description": "Spiced farmer's cheese coated in gram flour"},
+		{"Name": "Dahi Vada", "Price": "$ 4.50", "Description": "White lentil fritter in spicy creamy yogurt"},
+		{"Name": "Masala Vada", "Price": "$ 4.00", "Description": "Ground yellow lentil crisp fried"},
+		{"Name": "Mixed Bhajias", "Price": "$ 6.95", "Description": "Potatoes, eggplant, onions and chilies crisp fried in gram flour"},
+		{"Name": "Paneer Tikka", "Price": "$ 8.95", "Description": "Chunks of paneer marinated in spices and grilled in tandoor"}
 	]
 }

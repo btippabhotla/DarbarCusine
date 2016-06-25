@@ -1,9 +1,76 @@
-<!doctype html> <html> <head> <meta charset="utf-8"> <title>Darbar Cusine | Fine Indian Food</title> <meta name="description" content=""> <meta name="viewport" content="width=device-width"> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel="stylesheet" href="styles/vendor.f263ec0a.css"> <link rel="stylesheet" href="styles/main.e7ded78d.css"> </head> <body ng-app="darbarCusineApp"> <!--[if lte IE 8]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]--> <!-- Add your site or application content here --> <div class="header"> <div class="container"> <img src="images/darbarlogo.5cf35b77.png" alt="Darbar Indian Cuisine"> <div class="navbar navbar-inverse" role="navigation"> <div class="collapse navbar-collapse" id="js-navbar-collapse"> <ul class="nav navbar-nav"> <li class="active"><a href="#/">Home</a></li> <li><a ng-href="#/menu">Menu</a></li> <li><a ng-href="#/about">About</a></li> <li><a ng-href="#/contact">Contact</a></li> </ul> </div> </div> </div> </div> <div class="container"> <div ng-view=""></div> </div> <div class="footer"> <div class="container"> <p><span class="glyphicon glyphicon-copyright-mark"></span> Darbar Indian Cusine</p> </div> </div> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID --> <script>!function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Darbar Cusine | Fine Indian Food</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel='icon' type='image/png' href='images/yeoman.png' />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/navbar-custom.css">
+  </head>
+  <body ng-app="darbarCusineApp">
+    <div  class="header">
+      <div class="container">
+        <img src="images/darbarlogo.png" alt="Darbar Indian Cuisine" />
+        <div class="navbar-custom" role="navigation">
+          <div class="collapse navbar-collapse" id="js-navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#/">Home</a></li>
+              <li><a ng-href="#/menu">Menu</a></li>
+              <li><a ng-href="#/about">About</a></li>
+              <li><a ng-href="#/contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div ng-view=""></div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <p><span class="glyphicon glyphicon-copyright-mark"></span> Darbar Indian Cusine</p>
+      </div>
+    </div>
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+     <script>
+       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
        (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
        r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
        }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
        ga('create', 'UA-XXXXX-X');
-       ga('send', 'pageview');</script> <script src="scripts/vendor.96b44e73.js"></script> <script src="scripts/scripts.46c493ab.js"></script> </body> </html>
+       ga('send', 'pageview');
+    </script>
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-animate.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-aria.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-cookies.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-messages.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-resource.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-route.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-sanitize.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-touch.min.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/about.js"></script>
+        <script src="scripts/controllers/menu.js"></script>
+        <script src="scripts/controllers/contact.js"></script>
+        <!-- endbuild -->
+</body>
+</html>

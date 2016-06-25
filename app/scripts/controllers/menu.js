@@ -1,14 +1,8 @@
-/*
-  'use strict';
-
-angular.module('darbarCusineApp', [])
+angular.module('darbarCusineApp')
   .controller('MenuCtrl', ['$scope', '$http', function ($scope, $http) {
+        $http.get('JsonData/menu.json').then(function(menuItems) {
+                $scope.items = menuItems.data;
+        });
+}]); 
 
-    $http.get("JsonData/Appetizers.json").success(function (response) {
-           $scope.names = response.data;
-           console.log($scope.names);
-});
 
-  }]); 
-
-*/
