@@ -1,0 +1,19 @@
+{
+	"menu": {
+		"Tandoori":[
+			{"Name": "Tandoori Chicken", "Price": "$ 15.95", "Description": "Delightfully marinated chicken cooked in clay oven"},
+			{"Name": "Butter Chicken", "Price": "$ 15.95", "Description": "Shredded Tandoori chicken in tomato, butter, and fenugreek sauce"},
+			{"Name": "Chicken Tikka Masala", "Price": "$ 15.95", "Description": "Boneless Tandoori chicken in mild creamy sauce"},
+			{"Name": "Mixed Grill", "Price": "$ 18.95", "Description": "Assorted meats (lamb, chicken, and prawns) cooked in Tandoor with onions and bell peppers"}
+		],
+		"Vindaloo":[
+			{"Name": "Chicken Vindaloo", "Price": "$ 15.95", "Description": "Boneless pieces of chicken marinated and cooked in hot sauce"},
+			{"Name": "Shrimp Vindaloo", "Price": "$ 16.95", "Description": "Shrimp cooked in hot and spicy sauce"},
+			{"Name": "Lamb Vindaloo", "Price": "$ 16.95", "Description": "Marinated cubes of lamb cooked in very hot sauce"},
+			{"Name": "Prawn Vindaloo", "Price": "$ 18.95", "Description": "Classic prawn curry in hot and spicy sauce"},
+			{"Name": "Beef Vindaloo", "Price": "$ 15.95", "Description": "Ground beef cooked in hot and spicy sauce"},
+			{"Name": "Pork Vindaloo", "Price": "$ 15.95", "Description": "Pork cooked in hot spicy sauce"},
+			{"Name": "Vegetable Vindaloo", "Price": "$ 13.95", "Description": "Mixed vegetable in hot and spicy sauce"}
+		]
+	}
+}

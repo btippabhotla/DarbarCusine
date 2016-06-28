@@ -3,74 +3,211 @@
   <!-- Nav tabs -->
   <ul class="nav nav-pills" role="tablist">
     <li role="presentation" class="active"><a data-target="#Appetizers" aria-controls="Appetizers" role="tab" data-toggle="tab">Appetizers</a></li>
-    <li role="presentation"><a data-target="#VegetarianEntriees" aria-controls="VegetarianEntriees" role="tab" data-toggle="tab">Vegetarian Entriees</a></li>
-    <li role="presentation"><a data-target="#NonVegetarianEntriees" aria-controls="NonVegetarianEntriees" role="tab" data-toggle="tab">Non-Vegetarian Entriees</a></li>
-    <li role="presentation"><a data-target="#Desserts" aria-controls="Desserts" role="tab" data-toggle="tab">Desserts</a></li>
+    <li role="presentation"><a data-target="#VegetarianEntriees" ng-click="vegetarian()" aria-controls="VegetarianEntriees" role="tab" data-toggle="tab">Vegetarian Entriees</a></li>
+    <li role="presentation"><a data-target="#NonVegetarianEntriees" ng-click="nonvegetarian()" aria-controls="NonVegetarianEntriees" role="tab" data-toggle="tab">Non-Vegetarian Entriees</a></li>
+    <li role="presentation"><a data-target="#TandooriVindaloo" ng-click="tandoorivindaloo()" aria-controls="TandooriVindaloo" role="tab" data-toggle="tab">Tandoori &amp; Vindaloo </a></li>
+    
+    <li role="presentation"><a data-target="#Seafood" ng-click="seafood()" aria-controls="Seafood" role="tab" data-toggle="tab">Sea Food </a></li>
+    <li role="presentation"><a data-target="#BiryaniThali" ng-click="biryanis()" aria-controls="BiryaniThali" role="tab" data-toggle="tab">Biryani &amp; Thali</a></li>
+    <li role="presentation"><a data-target="#Sideorder" ng-click="sideorder()" aria-controls="Sideorder" role="tab" data-toggle="tab">SideOrders</a></li>
+    <li role="presentation"><a data-target="#Desserts" ng-click="desserts()" aria-controls="Desserts" role="tab" data-toggle="tab">Desserts</a></li>
   </ul>
 
   <!-- Tab panes -->
   <div class="tab-content" >
-    <div role="tabpanel" class="tab-pane active" id="Appetizers">     
-         <div class="">
-            <hr>            
-            <div ng-repeat="item in items">
-              <h3><strong>Vegetarian Appetizers</strong></h3>
-              <div class="thumbCols">
-                <div class="thumbnails" ng-repeat="val in item.Appetizers.Vegetarian">              
-                <img class="col-sm-4" src="favicon.png" alt="favicon">
-                <div class="caption thumbCols">
-                  <p>{{val.name}}</p>
-                  <p>{{val.Description}}</p>
-                </div>
-              </div>
-              </div>
+    <div role="tabpanel" class="tab-pane active" id="Appetizers">               
+      <div ng-repeat="item in items">
+        <h3><strong>Vegetarian Appetizers</strong></h3>
+        <hr>
+        <div class="thumbnails col-sm-4 col-sm-offset-1" ng-repeat="val in item.Appetizers.Vegetarian">              
+          <!--<img class="col-sm-4" src="favicon.png" alt="favicon">-->
+          <p class="col-sm-4"></p>
+          <h4 class="col-sm-8 valName">{{val.name}}</h4>
+          <h5 class="col-sm-4"><strong> Price: {{val.price}}</strong></h5>
+          <p class="col-sm-8">{{val.Description}}</p>
+        </div>
 
-              <hr>
-              <h3><strong>Non-Vegetarian Appetizers</strong></h3>
-              <div class="thumbCols">
-              <div class="thumbnail" ng-repeat="val in item.Appetizers.NonVegetarian" >
-                <img src="favicon.png" alt="favicon">
-                <div class="caption" >
-                  <h3>{{val.name}}</h3>
-                  <p>{{val.Description}}</p>
-                </div>
-              </div>
-              </div>
+        <h3><strong>Non-Vegetarian Appetizers</strong></h3>
+        <hr>
+        <div class="thumbnails col-sm-4 col-sm-offset-1" ng-repeat="val in item.Appetizers.NonVegetarian">
+          <!--<img class="col-sm-4" src="favicon.png" alt="favicon">-->
+          <p class="col-sm-4"></p>
+          <h4 class="col-sm-8 valName">{{val.name}}</h4>
+          <h5 class="col-sm-4"><strong> Price: {{val.Price}}</strong></h5>
+          <p class="col-sm-8">{{val.Description}}</p>
+        </div>
 
+        <h3><strong>South Indian Favorites</strong></h3>
+        <hr>
+        <div class="thumbnails col-sm-4 col-sm-offset-1" ng-repeat="val in item.Appetizers.South_Indian_Favorites" >
+          <!--<img class="col-sm-4" src="favicon.png" alt="favicon">-->
+          <p class="col-sm-4"></p>
+          <h4 class="col-sm-8 valName">{{val.name}}</h4>
+          <h5 class="col-sm-4"><strong> Price: {{val.price}}</strong></h5>
+          <p class="col-sm-8">{{val.Description}}</p>
+        </div>
+      </div>
+    </div>    
+        
+    <div role="tabpanel" class="tab-pane" id="VegetarianEntriees">
+      <div ng-repeat="vitem in vitems">
+          <strong><h3>Vegetarian Entrees&nbsp;&nbsp;</h3></strong>
+              <span>( comes with Rice, Naan , Dal and Raita)</span>
               <hr>
-              <h3><strong>South Indian Favorites</strong></h3>
-              <div class="thumbCol">
-              <div class="thumbnail" ng-repeat="val in item.Appetizers.South_Indian_Favorites" >
-                <img src="favicon.png" alt="favicon">
-                <div class="caption" >
-                  <h3>{{val.name}}</h3>
-                  <p>{{val.Description}}</p>
+              <div class="">
+                <div class="thumbnails col-sm-4 col-sm-offset-1" ng-repeat="val in vitem">              
+                  <div class="caption">
+                  <!--<img class="col-sm-4" src="favicon.png" alt="favicon">-->
+                  <p class="col-sm-4"></p>
+                    <h4 class="col-sm-8 valName">{{val.Name}}</h4>
+                    <h5 class="col-sm-4"><strong> Price: {{val.Price}}</strong></h5>
+                    <p class="col-sm-8">{{val.Description}}</p>
+                  </div>
                 </div>
               </div>
+      </div>
+    </div>
+
+
+
+
+    <div role="tabpanel" class="tab-pane" id="NonVegetarianEntriees">
+      <div ng-repeat="nvitem in nvitems">
+              <strong><h3>Non-Vegetarian Entrees&nbsp;&nbsp;</h3></strong>
+              <span>( comes with Rice, Naan , Dal and Raita)</span>
+              <hr>
+              <div class="">
+                <div class="thumbnails col-sm-4 col-sm-offset-1" ng-repeat="val in nvitem">              
+                  <div class="caption">
+                  <!--<img class="col-sm-4" src="favicon.png" alt="favicon">-->
+                  <p class="col-sm-4"></p>
+                    <h4 class="col-sm-8 valName">{{val.Name}}</h4>
+                    <h5 class="col-sm-4"><strong> Price: {{val.Price}}</strong></h5>
+                    <p class="col-sm-8">{{val.Description}}</p>
+                  </div>
+                </div>
+              </div>
+      </div>
+    </div>
+
+    <div role="tabpanel" class="tab-pane" id="TandooriVindaloo">
+      <div ng-repeat="titem in titems">
+          <strong><h3>Tandoori Specialities</h3></strong>
+          <hr>
+          <div class="">
+            <div class="thumbnails col-sm-4 col-sm-offset-1" ng-repeat="val in titem.Tandoori">              
+              <div class="caption">
+                <!--<img class="col-sm-4" src="favicon.png" alt="favicon">-->
+                <p class="col-sm-4"></p>
+                <h4 class="col-sm-8 valName">{{val.Name}}</h4>
+                <h5 class="col-sm-4"><strong> Price: {{val.Price}}</strong></h5>
+                <p class="col-sm-8">{{val.Description}}</p>
               </div>
             </div>
-          </div>     
+          </div>
+
+          <strong><h3>Vindaloo Specialities</h3></strong>
+          <hr>
+          <div class="">
+            <div class="thumbsnails col-sm-4 col-sm-offset-1" ng-repeat="val in titem.Vindaloo">              
+              <div class="caption">
+                <!--<img class="col-sm-4" src="favicon.png" alt="favicon">-->
+                <p class="col-sm-4"></p>
+                <h4 class="col-sm-8 valName">{{val.Name}}</h4>
+                <h5 class="col-sm-4"><strong> Price: {{val.Price}}</strong></h5>
+                <p class="col-sm-8">{{val.Description}}</p>
+              </div>
+            </div>
+          </div>
         </div>
-    
-    
-
-    
-
-
-
-
-
-
-
-    
-    <div role="tabpanel" class="tab-pane" id="VegetarianEntriees">
-    	<p> This is Vegetarian tab </p>
     </div>
-    <div role="tabpanel" class="tab-pane" id="NonVegetarianEntriees">
-    	<p> This is Non-Vegetarian Tab </p>
+
+    <div role="tabpanel" class="tab-pane" id="Seafood">
+      <div ng-repeat="sitem in sitems">
+        <strong><h3>Seafood Specialities</h3></strong>
+        <span>( comes with Rice, Naan , Dal and Raita)</span>
+        <hr>
+        <div class="">
+                <div class="thumbnails col-sm-4 col-sm-offset-1" ng-repeat="val in sitem">              
+                  <div class="caption">
+                  <!--<img class="col-sm-4" src="favicon.png" alt="favicon">-->
+                  <p class="col-sm-4"></p>
+                    <h4 class="col-sm-8 valName">{{val.Name}}</h4>
+                    <h5 class="col-sm-4"><strong> Price: {{val.Price}}</strong></h5>
+                    <p class="col-sm-8">{{val.Description}}</p>
+                  </div>
+                </div>
+              </div>
+      </div>
     </div>
+
+    <div role="tabpanel" class="tab-pane" id="BiryaniThali">
+      <div ng-repeat="bitem in bitems">
+              <strong><h3>Biryani Specialities</h3></strong>
+              <hr>
+              <div class="">
+                <div class="thumbnails col-sm-4 col-sm-offset-1" ng-repeat="val in bitem.Biryanis">              
+                  <div class="caption">
+                  <!--<img class="col-sm-4" src="favicon.png" alt="favicon">-->
+                  <p class="col-sm-4"></p>
+                    <h4 class="col-sm-8 valName">{{val.Name}}</h4>
+                    <h5 class="col-sm-4"><strong> Price: {{val.Price}}</strong></h5>
+                    <p class="col-sm-8">{{val.Description}}</p>
+                  </div>
+                </div>
+              </div>
+
+              <strong><h3>Thali Dinner</h3></strong>
+              <hr>
+              <div class="">
+                <div class="thumbsnails col-sm-4 col-sm-offset-1" ng-repeat="val in bitem.Thalis">              
+                  <div class="caption">
+                  <!--<img class="col-sm-4" src="favicon.png" alt="favicon">-->
+                  <p class="col-sm-4"></p>
+                    <h4 class="col-sm-8 valName">{{val.Name}}</h4>
+                    <h5 class="col-sm-4"><strong> Price: {{val.Price}}</strong></h5>
+                    <p class="col-sm-8">{{val.Description}}</p>
+                  </div>
+                </div>
+              </div>
+      </div>
+    </div>
+
+    <div role="tabpanel" class="tab-pane" id="Sideorder">
+      <div ng-repeat="soitem in soitems">
+        <strong><h3>Side Order Items</h3></strong>
+        <hr>
+        <div class="">
+                <div class="thumbnails col-sm-4 col-sm-offset-1" ng-repeat="val in soitem">              
+                  <div class="caption">
+                  <!--<img class="col-sm-4" src="favicon.png" alt="favicon">-->
+                  <p class="col-sm-4"></p>
+                    <h4 class="col-sm-8 valName">{{val.Name}}</h4>
+                    <h5 class="col-sm-4"><strong> Price: {{val.Price}}</strong></h5>
+                    <p class="col-sm-8">{{val.Description}}</p>
+                  </div>
+                </div>
+              </div>
+      </div>
+    </div>
+
+
     <div role="tabpanel" class="tab-pane" id="Desserts">
-    	<p> This is Desserts tab </p>
+      <div ng-repeat="ditem in ditems">
+        <strong><h3>Desserts</h3></strong>
+        <hr>
+        <div class="">
+                <div class="thumbnails col-sm-4 col-sm-offset-1" ng-repeat="val in ditem">              
+                  <div class="caption">
+                  <!--<img class="col-sm-4" src="favicon.png" alt="favicon">-->
+                  <p class="col-sm-4"></p>
+                    <h4 class="col-sm-8 valName">{{val.Name}}</h4>
+                    <h5 class="col-sm-4"><strong> Price: {{val.Price}}</strong></h5>
+                    <p class="col-sm-8">{{val.Description}}</p>
+                  </div>
+                </div>
+              </div>
+      </div>
     </div>
   </div>
 

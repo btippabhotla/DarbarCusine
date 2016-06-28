@@ -1,0 +1,7 @@
+{"Desserts":[
+		{"Name": "Kulfi", "Price": "$ 3.00", "Description": "Homemade ice cream with nuts available in Mango and Pistacho flavors"},
+		{"Name": "Rasmalai", "Price": "$ 4.25", "Description": "Homemade cottage cheese in rich milky sacue with nuts"},
+		{"Name": "Gulab Jamun", "Price": "$ 3.25", "Description": "Fried milk balls in rose flavored syrup"},
+		{"Name": "Kheer", "Price": "$ 3.00", "Description": "Creamy rice delight"}
+	]
+}

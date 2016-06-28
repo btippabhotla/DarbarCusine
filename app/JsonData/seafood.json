@@ -1,0 +1,10 @@
+{"Seafood":[
+		{"Name": "Fish Masala", "Price": "$ 16.95", "Description": "Pieces of cod marinated and cooked in spices"},
+		{"Name": "Tandoori Pomfret", "Price": "$ 16.95", "Description": "Cod marinated in fresh ginger and garlic base and cooked in Tandoor"},
+		{"Name": "Prawn Masala", "Price": "$ 18.95", "Description": "Medium prawns marinated and cooked in spices"},
+		{"Name": "Shrimp Curry", "Price": "$ 15.95", "Description": "Baby shrimp treated to daintily spiced sauce"},
+		{"Name": "Prawn Sag", "Price": "$ 18.95", "Description": "Prawns cooked in spiced creamed spinach"},
+		{"Name": "Prawn Korma", "Price": "$ 18.95", "Description": "Prawns prepared Hyderbadi style with nuts"},
+		{"Name": "Fish Curry", "Price": "$ 18.95", "Description": "Fish cooked in our own special blend of spices"}
+	]
+}

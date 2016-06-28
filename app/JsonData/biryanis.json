@@ -1,0 +1,14 @@
+{
+	"menu": {
+		"Biryanis":[
+			{"Name": "Vegetable Biryani", "Price": "$ 13.95", "Description": "Delightful rice preparation with choice vegetables"},
+			{"Name": "Chicken Biryani", "Price": "$ 15.95", "Description": "Delicious rice preparation with tender pieces of chicken"},
+			{"Name": "Lamb Biryani", "Price": "$ 17.95", "Description": "Cut cubes of lamb cooked with lightly spiced nuts and rice. A favorite of the Moghal Emperors"},
+			{"Name": "Prawn Biryani", "Price": "$ 18.95", "Description": "Saffron flavored rice with prawns and garnished with nuts"}
+		],
+		"Thalis":[
+			{"Name": "Vegetarian Thali", "Price": "$ 17.95", "Description": "Mixed Vegetable Curry, Palak Paneer, Malai Kofta, Masala Vada, Pakora, Rice, Dal ,Naan, Papad, Raita, Chutney, Kheer"},
+			{"Name": "Non-Vegetarian Thali", "Price": "$ 19.95", "Description": "Lamb Curry, Butter Chicken, Malai Kofta, Lamb Samosa, Pakora, Rice, Dal , Naan, Papad, Raita, Chutney, Kheer"}
+		]
+	}
+}

@@ -10,67 +10,97 @@
                 },
                 {
                     "id": "2",
-                    "name": "Vegetable Samosa"
+                    "name": "Vegetable Samosa",
+                    "price": "$ 4.75",
+                    "Description": "Two crispy patties stuffed with spicy potatoes and peas"
                 },
                 {
                     "id": "3",
-                    "name": "Paneer Pakora"
+                    "name": "Paneer Pakora",
+                    "price": "$ 6.95",
+                    "Description": "Spiced farmer's cheese coated in gram flour"
                 },
                 {
                     "id": "4",
-                    "name": "Dahi Vada"
+                    "name": "Dahi Vada",
+                    "price": "$ 4.50", 
+                    "Description": "White lentil fritter in spicy creamy yogurt"
                 },
                 {
                     "id": "5",
-                    "name": "Mixed Bhajia"
+                    "name": "Mixed Bhajia",
+                    "price": "$ 6.95", 
+                    "Description": "Potatoes, eggplant, onions and chilies crisp fried in gram flour"
                 },
                 {
                     "id": "6",
-                    "name": "Paneer Tikka"
+                    "name": "Paneer Tikka",
+                    "price": "$ 8.95", 
+                    "Description": "Chunks of paneer marinated in spices and grilled in tandoor"
                 }
             ],
             "NonVegetarian": [
                 {
                     "id": "7",
-                    "name": "Seekh Kabab"
+                    "name": "Seekh Kabab",
+                    "Price": "$ 7.95", 
+                    "Description": "Spicy ground lamb and onions cooked in Tandoor"
                 },
                 {
                     "id": "8",
-                    "name": "Tandoori Prawns"
+                    "name": "Tandoori Prawns",
+                    "Price": "$ 10.95", 
+                    "Description": "Jumbo prawns marinated and cooked in Tandoor"
                 },
                 {
                     "id": "9",
-                    "name": "Chicken Tikka"
+                    "name": "Chicken Tikka",
+                    "Price": "$ 6.95", 
+                    "Description": "Tender Boneless chicken marinated and cooked in Tandoor"
                 },
                 {
                     "id": "10",
-                    "name": "Fish Pakora"
+                    "name": "Fish Pakora",
+                    "Price": "$ 7.95", 
+                    "Description": "Delicately spiced deep fried fish fritters"
                 },
                 {
                     "id": "11",
-                    "name": "Assorted Tandoori"
+                    "name": "Assorted Tandoori",
+                    "Price": "$ 9.95", 
+                    "Description": "Assorted Chicken Tikka, Seekh Kabab and Tandoori Prawns"
                 },
                 {
                     "id": "12",
-                    "name": "Beef Samosa"
+                    "name": "Beef Samosa",
+                    "Price": "$ 5.00", 
+                    "Description": "Two crispy patties stuffed with spiced minced beef"
                 }
             ],
             "South_Indian_Favorites": [
                 {
                     "id": "13",
-                    "name": "Idli with Mulhapodi"
+                    "name": "Idli with Mulhapodi",
+                    "price": "$ 5.95",
+                    "Description": "Ground rice and lentil cakes, fermented and steam-cooked"
                 },
                 {
                     "id": "14",
-                    "name": "Sada Dosa"
+                    "name": "Sada Dosa",
+                    "price": "$ 5.95",
+                    "Description": "Crisp rice and lentil pancakes"
                 },
                 {
                     "id": "15",
-                    "name": "Masala Dosa"
+                    "name": "Masala Dosa",
+                    "price": "$ 6.95",
+                    "Description": "Crisp pancakes stuffed with lightly mashed and spiced potatoes"
                 },
                 {
                     "id": "16",
-                    "name": "Kheema Masala Dosa"
+                    "name": "Kheema Masala Dosa",
+                    "price": "$ 7.95",
+                    "Description": "Crisp potatoes stuffed with ground lamb"
                 }
             ]
         }
