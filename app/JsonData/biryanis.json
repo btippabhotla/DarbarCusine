@@ -7,8 +7,8 @@
 			{"Name": "Prawn Biryani", "Price": "$ 18.95", "Description": "Saffron flavored rice with prawns and garnished with nuts"}
 		],
 		"Thalis":[
-			{"Name": "Vegetarian Thali", "Price": "$ 17.95", "Description": "Mixed Vegetable Curry, Palak Paneer, Malai Kofta, Masala Vada, Pakora, Rice, Dal ,Naan, Papad, Raita, Chutney, Kheer"},
-			{"Name": "Non-Vegetarian Thali", "Price": "$ 19.95", "Description": "Lamb Curry, Butter Chicken, Malai Kofta, Lamb Samosa, Pakora, Rice, Dal , Naan, Papad, Raita, Chutney, Kheer"}
+			{"Name": "Vegetarian Thali", "Price": "$ 17.95", "Description": "Mixed Vegetable Curry, Palak Paneer, Malai Kofta, Masala Vada, Pakora, Rice, Daal, Naan, Papad, Raita, Chutney, Kheer"},
+			{"Name": "Non-Vegetarian Thali", "Price": "$ 19.95", "Description": "Lamb Curry, Butter Chicken, Malai Kofta, Lamb Samosa, Pakora, Rice, Daal, Naan, Papad, Raita, Chutney, Kheer"}
 		]
 	}
 }

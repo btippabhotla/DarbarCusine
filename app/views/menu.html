@@ -1,23 +1,23 @@
 <div ng-controller="MenuCtrl">
 
   <!-- Nav tabs -->
-  <ul class="nav nav-pills" role="tablist">
-    <li role="presentation" class="active"><a data-target="#Appetizers" aria-controls="Appetizers" role="tab" data-toggle="tab">Appetizers</a></li>
-    <li role="presentation"><a data-target="#VegetarianEntriees" ng-click="vegetarian()" aria-controls="VegetarianEntriees" role="tab" data-toggle="tab">Vegetarian Entriees</a></li>
-    <li role="presentation"><a data-target="#NonVegetarianEntriees" ng-click="nonvegetarian()" aria-controls="NonVegetarianEntriees" role="tab" data-toggle="tab">Non-Vegetarian Entriees</a></li>
-    <li role="presentation"><a data-target="#TandooriVindaloo" ng-click="tandoorivindaloo()" aria-controls="TandooriVindaloo" role="tab" data-toggle="tab">Tandoori &amp; Vindaloo </a></li>
-    
-    <li role="presentation"><a data-target="#Seafood" ng-click="seafood()" aria-controls="Seafood" role="tab" data-toggle="tab">Sea Food </a></li>
-    <li role="presentation"><a data-target="#BiryaniThali" ng-click="biryanis()" aria-controls="BiryaniThali" role="tab" data-toggle="tab">Biryani &amp; Thali</a></li>
-    <li role="presentation"><a data-target="#Sideorder" ng-click="sideorder()" aria-controls="Sideorder" role="tab" data-toggle="tab">SideOrders</a></li>
-    <li role="presentation"><a data-target="#Desserts" ng-click="desserts()" aria-controls="Desserts" role="tab" data-toggle="tab">Desserts</a></li>
-  </ul>
+    <ul class="nav nav-pills" role="tablist">
+      <li role="presentation" class="active"><a data-target="#Appetizers" aria-controls="Appetizers" role="tab" data-toggle="tab">Appetizers</a></li>
+      <li role="presentation"><a data-target="#VegetarianEntriees" ng-click="vegetarian()" aria-controls="VegetarianEntriees" role="tab" data-toggle="tab">Vegetarian Entriees</a></li>
+      <li role="presentation"><a data-target="#NonVegetarianEntriees" ng-click="nonvegetarian()" aria-controls="NonVegetarianEntriees" role="tab" data-toggle="tab">Non-Vegetarian Entriees</a></li>
+      <li role="presentation"><a data-target="#TandooriVindaloo" ng-click="tandoorivindaloo()" aria-controls="TandooriVindaloo" role="tab" data-toggle="tab">Tandoori &amp; Vindaloo </a></li>
+      
+      <li role="presentation"><a data-target="#Seafood" ng-click="seafood()" aria-controls="Seafood" role="tab" data-toggle="tab">Sea Food </a></li>
+      <li role="presentation"><a data-target="#BiryaniThali" ng-click="biryanis()" aria-controls="BiryaniThali" role="tab" data-toggle="tab">Biryani &amp; Thali</a></li>
+      <li role="presentation"><a data-target="#Sideorder" ng-click="sideorder()" aria-controls="Sideorder" role="tab" data-toggle="tab">SideOrders</a></li>
+      <li role="presentation"><a data-target="#Desserts" ng-click="desserts()" aria-controls="Desserts" role="tab" data-toggle="tab">Desserts</a></li>
+    </ul>
 
   <!-- Tab panes -->
   <div class="tab-content" >
     <div role="tabpanel" class="tab-pane active" id="Appetizers">               
       <div ng-repeat="item in items">
-        <h3><strong>Vegetarian Appetizers</strong></h3>
+        <h3 class="timings">Vegetarian Appetizers</h3>
         <hr>
         <div class="thumbnails col-sm-4 col-sm-offset-1" ng-repeat="val in item.Appetizers.Vegetarian">              
           <!--<img class="col-sm-4" src="favicon.png" alt="favicon">-->
@@ -51,8 +51,8 @@
         
     <div role="tabpanel" class="tab-pane" id="VegetarianEntriees">
       <div ng-repeat="vitem in vitems">
-          <strong><h3>Vegetarian Entrees&nbsp;&nbsp;</h3></strong>
-              <span>( comes with Rice, Naan , Dal and Raita)</span>
+          <h3>Vegetarian Entrees</h3>
+              <span class="timing">(Rice, Naan, Daal and Raita are included)</span>
               <hr>
               <div class="">
                 <div class="thumbnails col-sm-4 col-sm-offset-1" ng-repeat="val in vitem">              
@@ -73,8 +73,8 @@
 
     <div role="tabpanel" class="tab-pane" id="NonVegetarianEntriees">
       <div ng-repeat="nvitem in nvitems">
-              <strong><h3>Non-Vegetarian Entrees&nbsp;&nbsp;</h3></strong>
-              <span>( comes with Rice, Naan , Dal and Raita)</span>
+              <h3>Non-Vegetarian Entrees</h3>
+              <span class="timing">(Rice, Naan, Daal and Raita are included)</span>
               <hr>
               <div class="">
                 <div class="thumbnails col-sm-4 col-sm-offset-1" ng-repeat="val in nvitem">              

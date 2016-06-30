@@ -22,6 +22,35 @@ body {
   border-bottom: 1px solid #e5e5e5;
   margin-bottom: 10px;
 }
+
+#liwidth{
+  width: 17.5em;
+
+  a{
+    padding-left: 6.5em;
+  }
+}
+
+.panelhead{
+  font-weight:bold;
+  text-align: center;
+  color: #FFFFFF;
+  background-image: linear-gradient(to bottom, #800000 0%, #0088cc 100%);
+}
+
+
+
+.headerstyle{
+  font-weight:bold;
+  text-align: center;
+  color: #800000;
+}
+
+.subheader{
+  font-weight: bold;
+  text-align: center;
+  color:;
+}
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
   margin-top: 0;
@@ -85,10 +114,22 @@ body {
   font: #2E2EFE;
 }
 
+.timings, h3{
+  font-weight:bold;
+  color:#800000;
+  text-align: center;
+}
+
+.timing{
+  font-weight:bold;
+  color:#800000;
+  display:block;
+}
+
 /* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 321px) {
   .container {
-    max-width: 1024px;
+    max-width: 1048px;
   }
 
   /* Remove the padding we set earlier */

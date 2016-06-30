@@ -1,8 +1,8 @@
 .navbar-custom {
-  background-color: #0088cc;
+  background-color: #800000;
   border-color: #0072ab;
   border-radius:5px;
-  background-image: linear-gradient(to bottom, #00aaff 0%, #0088cc 100%);
+  background-image: linear-gradient(to bottom, #800000 0%, #0088cc 100%);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff00aaff', endColorstr='#ff0088cc', GradientType=0);
 }
